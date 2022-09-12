@@ -28,6 +28,12 @@ struct ContentView: View {
                // onTapGesture {
                 //.onDelete(perform: deleteItems) }
                // array.
+                // List{
+             //   Section(header: Text ("iteams"))
+                 //   {ForEach(iteams, id: \.self){iteam in Text(iteam.capitalized)}
+               // .onDelete(perform: {indexSet in //iteams.remove(atOffsets: indexSet)})
+             //   }
+                
         }
             
             
@@ -62,9 +68,9 @@ struct ContentView: View {
                  
             
                 
-                Button(action:{iteams.remove(at: 5)}){Text("selectToremove")}
-                    .background(Color.purple)
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
+            //    Button(action:{iteams.remove(at: 5)}){Text("selectToremove")}
+              //      .background(Color.purple)
+               //     .clipShape(RoundedRectangle(cornerRadius: 10))
                     
                 
                   //  Button
